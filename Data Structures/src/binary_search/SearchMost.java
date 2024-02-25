@@ -1,3 +1,5 @@
+package binary_search;
+
 public class SearchMost {
     public static int findLeftMost(int[] a, int target){
         int i = 0, j = a.length - 1;

@@ -1,3 +1,5 @@
+package binary_search;
+
 public class BinarySearch {
     //Params: 'a' is Ascending Order Array，
     //Params: target is a element in Array.

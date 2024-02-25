@@ -1,10 +1,12 @@
+package binary_search;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestBinarySearch {
     @Test
-    @DisplayName("BinarySearch Found")
+    @DisplayName("binary_search.BinarySearch Found")
     public void test1(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(0, BinarySearch.binarySearchBasic(a, 9));
@@ -18,7 +20,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Not Found")
+    @DisplayName("binary_search.BinarySearch Not Found")
     public void test2(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(-1, BinarySearch.binarySearchBasic(a, 7));
@@ -28,7 +30,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Found")
+    @DisplayName("binary_search.BinarySearch Found")
     public void test3(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(0, BinarySearch.binarySearchDiff1(a, 9));
@@ -42,7 +44,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Not Found")
+    @DisplayName("binary_search.BinarySearch Not Found")
     public void test4(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(-1, BinarySearch.binarySearchDiff1(a, 7));
@@ -52,7 +54,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Found")
+    @DisplayName("binary_search.BinarySearch Found")
     public void test5(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(0, BinarySearch.binarySearchDiff2(a, 9));
@@ -66,7 +68,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Not Found")
+    @DisplayName("binary_search.BinarySearch Not Found")
     public void test6(){
         int[] a = {9, 13, 25, 31, 39, 44, 52, 67};
         assertEquals(-1, BinarySearch.binarySearchDiff2(a, 7));
@@ -76,7 +78,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Found")
+    @DisplayName("binary_search.BinarySearch Found")
     public void test7(){
         int[] a = {2, 3, 6, 6, 6, 9, 11, 17};
         assertEquals(0, SearchMost.findLeftMost(a, 2));
@@ -89,7 +91,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Not Found")
+    @DisplayName("binary_search.BinarySearch Not Found")
     public void test8(){
         int[] a = {2, 3, 6, 6, 6, 9, 11, 17};
         assertEquals(-1, SearchMost.findLeftMost(a, 4));
@@ -98,7 +100,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Found")
+    @DisplayName("binary_search.BinarySearch Found")
     public void test9(){
         int[] a = {2, 3, 6, 6, 6, 9, 11, 17};
         assertEquals(0, SearchMost.findRightMost(a, 2));
@@ -111,7 +113,7 @@ public class TestBinarySearch {
     }
 
     @Test
-    @DisplayName("BinarySearch Not Found")
+    @DisplayName("binary_search.BinarySearch Not Found")
     public void test10(){
         int[] a = {2, 3, 6, 6, 6, 9, 11, 17};
         assertEquals(-1, SearchMost.findLeftMost(a, 4));

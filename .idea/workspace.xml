@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures And Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/Data Structures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/SearchMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/SearchMost.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/SearchMost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/TestBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/SearchMost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/TestBinarySearch.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cltFxJoNuLUVw6PiWrLR8aTj1E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,59 +51,85 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Learning/Data Structures And Algorithms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestBinarySearch.test10">
+  <component name="RunManager" selected="JUnit.TestDynamicArray.test4">
     <configuration name="TestBinarySearch.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBinarySearch" />
+      <option name="PACKAGE_NAME" value="binary_search" />
+      <option name="MAIN_CLASS_NAME" value="binary_search.TestBinarySearch" />
       <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinarySearch.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDynamicArray.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBinarySearch" />
-      <option name="METHOD_NAME" value="test6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamic_array" />
+      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinarySearch.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDynamicArray.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBinarySearch" />
-      <option name="METHOD_NAME" value="test7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamic_array" />
+      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinarySearch.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDynamicArray.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBinarySearch" />
-      <option name="METHOD_NAME" value="test8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamic_array" />
+      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinarySearch.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDynamicArray.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBinarySearch" />
-      <option name="METHOD_NAME" value="test9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamic_array" />
+      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDynamicArray.test4" />
+        <item itemvalue="JUnit.TestDynamicArray.test1" />
+        <item itemvalue="JUnit.TestDynamicArray.test3" />
+        <item itemvalue="JUnit.TestDynamicArray.test2" />
         <item itemvalue="JUnit.TestBinarySearch.test10" />
-        <item itemvalue="JUnit.TestBinarySearch.test9" />
-        <item itemvalue="JUnit.TestBinarySearch.test8" />
-        <item itemvalue="JUnit.TestBinarySearch.test7" />
-        <item itemvalue="JUnit.TestBinarySearch.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708697892650</updated>
       <workItem from="1708697893620" duration="16423000" />
+      <workItem from="1708792622761" duration="13963000" />
     </task>
     <servers />
   </component>
