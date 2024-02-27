@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestLinkedList {
+public class TestSinglyLinkedList {
 
 
     SinglyLinkedList list = new SinglyLinkedList();
@@ -34,7 +34,7 @@ public class TestLinkedList {
         for(int value: list){
             System.out.println(value);
         }
-        list.forEach(System.out::println);
+        //list.forEach(System.out::println);
 
     }
     @Test
@@ -95,4 +95,5 @@ public class TestLinkedList {
         System.out.println("\n***********");
         list.forEach(System.out::print);
     }
+
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestLinkedList.java" afterDir="false" />
+    <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/DoubleLinkedListSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedListSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestDoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestSinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestLinkedList.test6">
-    <configuration name="TestLinkedList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="linked_list" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestDoubleLinkedList.test1">
+    <configuration name="TestDoubleLinkedList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
@@ -66,14 +71,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestDoubleLinkedList" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSinglyLinkedList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSinglyLinkedList.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
@@ -82,30 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinkedList.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSinglyLinkedList.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
@@ -114,14 +119,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
       <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSinglyLinkedList.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
@@ -130,7 +135,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLinkedList.test6" />
-        <item itemvalue="JUnit.TestLinkedList.test5" />
-        <item itemvalue="JUnit.TestLinkedList.test4" />
-        <item itemvalue="JUnit.TestLinkedList.test3" />
-        <item itemvalue="JUnit.TestLinkedList.test2" />
+        <item itemvalue="JUnit.TestDoubleLinkedList.test1" />
+        <item itemvalue="JUnit.TestSinglyLinkedList.test2" />
+        <item itemvalue="JUnit.TestSinglyLinkedList.test4" />
+        <item itemvalue="JUnit.TestSinglyLinkedList.test6" />
+        <item itemvalue="JUnit.TestSinglyLinkedList.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +162,7 @@
       <updated>1708697892650</updated>
       <workItem from="1708697893620" duration="16423000" />
       <workItem from="1708792622761" duration="24395000" />
-      <workItem from="1709012499443" duration="6127000" />
+      <workItem from="1709012499443" duration="14841000" />
     </task>
     <servers />
   </component>
@@ -168,5 +173,9 @@
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="executable:terraform" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files" />
   </component>
 </project>
