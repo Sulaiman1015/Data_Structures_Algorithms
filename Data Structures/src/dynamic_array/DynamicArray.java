@@ -7,9 +7,12 @@ import java.util.stream.IntStream;
 public class DynamicArray implements Iterable<Integer>{
     private int size = 0;
     private int capacity = 8;
-    private int[] array = {};
+    private int[] array = new int[capacity];
 
     public void addLast(int element) {
+        if (size == capacity){
+            resize();
+        }
         array[size] = element;
         size++;
     }

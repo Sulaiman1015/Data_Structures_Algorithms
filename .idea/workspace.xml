@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/SearchMost.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/SearchMost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/binary_search/TestBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/SearchMost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/TestBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,97 +35,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Learning/Data Structures And Algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learning/Data Structures And Algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestDynamicArray.test4">
-    <configuration name="TestBinarySearch.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <option name="PACKAGE_NAME" value="binary_search" />
-      <option name="MAIN_CLASS_NAME" value="binary_search.TestBinarySearch" />
-      <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamicArray.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.TestLinkedList.test6">
+    <configuration name="TestLinkedList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="PATTERN" value="linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamic_array" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamicArray.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamic_array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dynamic_array" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDynamicArray.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="PATTERN" value="linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamic_array" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDynamicArray.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic_array.*" />
+          <option name="PATTERN" value="linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamic_array" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_array.TestDynamicArray" />
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
       <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked_list" />
+      <option name="MAIN_CLASS_NAME" value="linked_list.TestLinkedList" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDynamicArray.test4" />
-        <item itemvalue="JUnit.TestDynamicArray.test1" />
-        <item itemvalue="JUnit.TestDynamicArray.test3" />
-        <item itemvalue="JUnit.TestDynamicArray.test2" />
-        <item itemvalue="JUnit.TestBinarySearch.test10" />
+        <item itemvalue="JUnit.TestLinkedList.test6" />
+        <item itemvalue="JUnit.TestLinkedList.test5" />
+        <item itemvalue="JUnit.TestLinkedList.test4" />
+        <item itemvalue="JUnit.TestLinkedList.test3" />
+        <item itemvalue="JUnit.TestLinkedList.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +156,17 @@
       <option name="presentableId" value="Default" />
       <updated>1708697892650</updated>
       <workItem from="1708697893620" duration="16423000" />
-      <workItem from="1708792622761" duration="13963000" />
+      <workItem from="1708792622761" duration="24395000" />
+      <workItem from="1709012499443" duration="6127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="executable:terraform" />
   </component>
 </project>
