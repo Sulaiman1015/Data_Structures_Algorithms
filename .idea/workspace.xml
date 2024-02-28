@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/DoubleLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestDoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/ReversePrintString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/CircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestCircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/linked_list/TestSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures And Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures And Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/Data Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/data_structures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/SearchMost.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/SearchMost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/TestBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/DoubleLinkedListSentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/DoubleLinkedListSentinel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedListSentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/SinglyLinkedListSentinel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestDoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestSinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,96 +67,96 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learning/Data Structures And Algorithms&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learning/Data Structures And Algorithms/algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\Data Structures And Algorithms" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDoubleLinkedList.test1">
-    <configuration name="TestDoubleLinkedList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
+  <component name="RunManager" selected="JUnit.TestRecursion.testInsertionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.BubbleSort" />
+      <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversePrintString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.ReversePrintString" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRecursion.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recursion" />
+      <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
+      <option name="METHOD_NAME" value="testBinarySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSinglyLinkedList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
+    <configuration name="TestRecursion.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="recursion" />
+      <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
+      <option name="METHOD_NAME" value="testBubbleSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSinglyLinkedList.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
+    <configuration name="TestRecursion.testInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSinglyLinkedList.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSinglyLinkedList.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linked_list" />
-      <option name="MAIN_CLASS_NAME" value="linked_list.TestSinglyLinkedList" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="recursion" />
+      <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
+      <option name="METHOD_NAME" value="testInsertionSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDoubleLinkedList.test1" />
-        <item itemvalue="JUnit.TestSinglyLinkedList.test2" />
-        <item itemvalue="JUnit.TestSinglyLinkedList.test4" />
-        <item itemvalue="JUnit.TestSinglyLinkedList.test6" />
-        <item itemvalue="JUnit.TestSinglyLinkedList.test5" />
+        <item itemvalue="JUnit.TestRecursion.testInsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="JUnit.TestRecursion.testBubbleSort" />
+        <item itemvalue="JUnit.TestRecursion.testBinarySearch" />
+        <item itemvalue="Application.ReversePrintString" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +182,10 @@
       <updated>1708697892650</updated>
       <workItem from="1708697893620" duration="16423000" />
       <workItem from="1708792622761" duration="24395000" />
-      <workItem from="1709012499443" duration="14841000" />
+      <workItem from="1709012499443" duration="23120000" />
+      <workItem from="1709112030995" duration="93000" />
+      <workItem from="1709112142421" duration="2695000" />
+      <workItem from="1709114952265" duration="6521000" />
     </task>
     <servers />
   </component>

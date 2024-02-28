@@ -2,7 +2,10 @@ package linked_list;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
 public class TestSinglyLinkedList {
 
@@ -94,6 +97,21 @@ public class TestSinglyLinkedList {
         list.remove(0);
         System.out.println("\n***********");
         list.forEach(System.out::print);
+    }
+
+    @Test
+    public void test7(){
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+        list.addLast(5);
+        list.loop3(value->{
+            System.out.println("before: "+value);
+        }, value->{
+            System.out.println("after: "+value);
+        });
+        assertIterableEquals(List.of(1,2,3,4,5), list);
     }
 
 }

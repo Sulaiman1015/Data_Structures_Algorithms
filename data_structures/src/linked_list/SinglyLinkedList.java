@@ -126,6 +126,19 @@ public class SinglyLinkedList implements Iterable<Integer>{
             c.accept(p.value);
         }
     }
+
+    public void loop3(Consumer<Integer> before, Consumer<Integer> after) {
+        recursion(head,before,after);
+    }
+
+    public void recursion(Node current, Consumer<Integer> before, Consumer<Integer> after) {
+        if(current == null) {
+            return;
+        }
+        before.accept(current.value);
+        recursion(current.next, before, after);
+        after.accept(current.value);
+    }
 }
 
 
