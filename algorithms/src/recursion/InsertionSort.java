@@ -1,11 +1,15 @@
 package recursion;
 
 public class InsertionSort {
-    public static void sort(int[] a) {
-        insertion(a, 1);
+    public static void sort1(int[] a) {
+        insertion1(a, 1);
     }
 
-    private static void insertion(int[] a, int low) {
+    public static void sort2(int[] a) {
+        insertion2(a, 1);
+    }
+
+    private static void insertion1(int[] a, int low) {
         if(low == a.length){
             return;
         }
@@ -16,8 +20,27 @@ public class InsertionSort {
             a[i+1] = a[i];
             i--;
         }
-        a[i+1] = t;
+        if (i+1 != low){
+            a[i+1] = t;
+        }
 
-        insertion(a,low+1);
+        insertion1(a,low+1);
+    }
+
+    private static void insertion2(int[] a, int low) {
+        if(low == a.length){
+            return;
+        }
+
+        int i = low - 1;
+
+        while (i >= 0 && a[i] > a[i+1]) {
+            int t = a[i];
+            a[i] = a[i+1];
+            a[i+1] = t;
+            i--;
+        }
+
+        insertion2(a,low+1);
     }
 }

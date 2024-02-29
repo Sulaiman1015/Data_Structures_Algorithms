@@ -8,7 +8,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static recursion.BinarySearch.search;
 import static recursion.BubbleSort.bubble;
-import static recursion.InsertionSort.sort;
+import static recursion.Fibonacci.fibonacci;
+import static recursion.InsertionSort.sort1;
+import static recursion.InsertionSort.sort2;
 
 public class TestRecursion {
     @Test
@@ -27,16 +29,38 @@ public class TestRecursion {
     }
 
     @Test
-    public void testInsertionSort(){
+    public void testInsertionSort1(){
        int[] expected = {1,2,3,4,5};
        int[] a1 = {5,4,3,2,1};
-       sort(a1);
+       sort1(a1);
+       System.out.print(Arrays.toString(a1));
+       assertArrayEquals(expected,a1);
+       System.out.println("\n*************");
+       int[] a2 = {1,4,2,5,3};
+       sort1(a2);
+       System.out.print(Arrays.toString(a2));
+       assertArrayEquals(expected,a2);
+    }
+
+    @Test
+    public void testInsertionSort2(){
+        int[] expected = {1,2,3,4,5};
+        int[] a1 = {5,4,3,2,1};
+        sort2(a1);
         System.out.print(Arrays.toString(a1));
         assertArrayEquals(expected,a1);
         System.out.println("\n*************");
         int[] a2 = {1,4,2,5,3};
-        sort(a2);
+        sort2(a2);
         System.out.print(Arrays.toString(a2));
         assertArrayEquals(expected,a2);
+    }
+
+    @Test
+    public void testFibonacci() {
+        assertEquals(1, fibonacci(2));
+        assertEquals(2, fibonacci(3));
+        assertEquals(3, fibonacci(4));
+        assertEquals(5, fibonacci(5));
     }
 }

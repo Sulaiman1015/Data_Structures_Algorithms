@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/algorithms/algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/ReversePrintString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestCircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/multi_recursion/HanoiTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/multi_recursion/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/RecurSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures And Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures And Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/Data Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/data_structures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/SearchMost.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/SearchMost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/binary_search/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/binary_search/TestBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/dynamic_array/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/dynamic_array/TestDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/dynamic_array/TestDynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/DoubleLinkedListSentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/DoubleLinkedListSentinel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/SinglyLinkedListSentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/SinglyLinkedListSentinel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestDoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/linked_list/TestSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/linked_list/TestSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +69,35 @@
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRecursion.testInsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BubbleSort" />
+  <component name="RunManager" selected="Application.PascalTriangle">
+    <configuration name="HanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multi_recursion.HanoiTower" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multi_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multi_recursion.PascalTriangle" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multi_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecurSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RecurSum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePrintString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.ReversePrintString" />
+    <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.SnakeGame" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRecursion.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRecursion.testFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -124,39 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="recursion" />
       <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
-      <option name="METHOD_NAME" value="testBinarySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRecursion.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
-      <option name="METHOD_NAME" value="testBubbleSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRecursion.testInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.TestRecursion" />
-      <option name="METHOD_NAME" value="testInsertionSort" />
+      <option name="METHOD_NAME" value="testFibonacci" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRecursion.testInsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="JUnit.TestRecursion.testBubbleSort" />
-        <item itemvalue="JUnit.TestRecursion.testBinarySearch" />
-        <item itemvalue="Application.ReversePrintString" />
+        <item itemvalue="Application.PascalTriangle" />
+        <item itemvalue="Application.HanoiTower" />
+        <item itemvalue="Application.SnakeGame" />
+        <item itemvalue="Application.RecurSum" />
+        <item itemvalue="JUnit.TestRecursion.testFibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +161,7 @@
       <workItem from="1709012499443" duration="23120000" />
       <workItem from="1709112030995" duration="93000" />
       <workItem from="1709112142421" duration="2695000" />
-      <workItem from="1709114952265" duration="6521000" />
+      <workItem from="1709114952265" duration="20286000" />
     </task>
     <servers />
   </component>
