@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/algorithms/src/multi_recursion/HanoiTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/multi_recursion/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/src/recursion/RecurSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/recursion/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/recursion/TestRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/multi_recursion/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/multi_recursion/PascalTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +156,7 @@
       <workItem from="1709012499443" duration="23120000" />
       <workItem from="1709112030995" duration="93000" />
       <workItem from="1709112142421" duration="2695000" />
-      <workItem from="1709114952265" duration="20286000" />
+      <workItem from="1709114952265" duration="21284000" />
     </task>
     <servers />
   </component>
