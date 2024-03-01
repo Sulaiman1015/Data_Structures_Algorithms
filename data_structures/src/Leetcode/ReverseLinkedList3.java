@@ -1,6 +1,4 @@
-package linked_list;
-
-import java.util.List;
+package Leetcode;
 
 public class ReverseLinkedList3 {
     //singly linked list

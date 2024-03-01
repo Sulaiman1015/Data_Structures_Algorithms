@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveLinkedListElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/ReverseLinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/ReverseLinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/linked_list/ReverseLinkedList3.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/ReverseLinkedList3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList1$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList2$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList3$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structures/linked_list/ReverseLinkedList3.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +73,7 @@
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList3">
-    <configuration name="HanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multi_recursion.HanoiTower" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multi_recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveLinkedListElements">
     <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multi_recursion.PascalTriangle" />
       <module name="algorithms" />
@@ -93,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_list.ReverseLinkedList1" />
+    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.RemoveLinkedListElements" />
       <module name="data_structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="Leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.ReverseLinkedList1" />
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLinkedList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_list.ReverseLinkedList2" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.ReverseLinkedList2" />
       <module name="data_structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLinkedList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_list.ReverseLinkedList3" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.ReverseLinkedList3" />
       <module name="data_structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_list.*" />
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLinkedListElements" />
+        <item itemvalue="Application.ReverseLinkedList1" />
         <item itemvalue="Application.ReverseLinkedList3" />
         <item itemvalue="Application.ReverseLinkedList2" />
-        <item itemvalue="Application.ReverseLinkedList1" />
         <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.HanoiTower" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +163,7 @@
       <workItem from="1709112030995" duration="93000" />
       <workItem from="1709112142421" duration="2695000" />
       <workItem from="1709114952265" duration="24826000" />
-      <workItem from="1709287473693" duration="11767000" />
+      <workItem from="1709287473693" duration="17187000" />
     </task>
     <servers />
   </component>

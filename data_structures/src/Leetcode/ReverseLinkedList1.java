@@ -1,4 +1,4 @@
-package linked_list;
+package Leetcode;
 
 public class ReverseLinkedList1 {
     //singly linked list
