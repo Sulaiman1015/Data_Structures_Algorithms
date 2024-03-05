@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class RemoveDuplicates {
+public class RemoveAllDuplicates {
 
     //remove sorted linked list elements
     public static class ListNode {
@@ -39,13 +39,15 @@ public class RemoveDuplicates {
         ListNode p1 = head;
         ListNode p2;
         while ((p2 = p1.next) != null){
+
             if (p1.val == p2.val){
-                p1.next= p2.next;
+                p1 = p2.next;
+                p2 = p2.next.next;
             } else {
                 p1 = p1.next;
             }
         }
-        return head;
+        return p1;
     }
 
     //solution 2
@@ -54,7 +56,11 @@ public class RemoveDuplicates {
             return p;
         }
         if (p.val == p.next.val) {
-            return deleteDuplicates2(p.next);
+            ListNode x = p.next.next;
+            while (x != null && x.val == p.val) {
+                x = x.next;
+            }
+            return deleteDuplicates2(x);
         } else {
             p.next = deleteDuplicates2(p.next);
             return p;
@@ -77,9 +83,9 @@ public class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        ListNode head = ListNode.of(1,1,2,3,3,6);
+        ListNode head = ListNode.of(1,1,2,3,3,3,6);
         printList(head);
-        printList(new RemoveDuplicates().deleteDuplicates1(head));
-        printList(new RemoveDuplicates().deleteDuplicates2(head));
+        printList(new RemoveAllDuplicates().deleteDuplicates1(head));
+        printList(new RemoveAllDuplicates().deleteDuplicates2(head));
     }
 }

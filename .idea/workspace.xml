@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveAllDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +62,24 @@
       <recent name="D:\Learning\Data Structures And Algorithms" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Leetcode" />
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.RemoveAllDuplicates">
+    <configuration name="RemoveAllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.RemoveAllDuplicates" />
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.RemoveDuplicates" />
       <module name="data_structures" />
@@ -118,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.ReverseLinkedList3" />
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAllDuplicates" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RemoveFromEnd" />
         <item itemvalue="Application.RemoveLinkedListElements" />
         <item itemvalue="Application.ReverseLinkedList1" />
-        <item itemvalue="Application.ReverseLinkedList3" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,7 @@
       <workItem from="1709112030995" duration="93000" />
       <workItem from="1709112142421" duration="2695000" />
       <workItem from="1709114952265" duration="24826000" />
-      <workItem from="1709287473693" duration="28690000" />
+      <workItem from="1709287473693" duration="33742000" />
     </task>
     <servers />
   </component>
