@@ -36,18 +36,21 @@ public class RemoveAllDuplicates {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode p1 = head;
-        ListNode p2;
-        while ((p2 = p1.next) != null){
+        ListNode s = new ListNode(-1,head);
+        ListNode p1 = s;
+        ListNode p2, p3;
+        while ((p2 = p1.next) != null && (p3 = p2.next) != null){
 
-            if (p1.val == p2.val){
-                p1 = p2.next;
-                p2 = p2.next.next;
+            if (p2.val == p3.val){
+                while (p3 != null && p3.val == p2.val){
+                    p3 = p3.next;
+                }
+                p1.next = p3;
             } else {
                 p1 = p1.next;
             }
         }
-        return p1;
+        return s.next;
     }
 
     //solution 2
