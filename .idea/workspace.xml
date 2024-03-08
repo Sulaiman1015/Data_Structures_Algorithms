@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/MergeMultiLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/MergeTwoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/MiddleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/TestLinkedListQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveAllDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/src/Leetcode/RemoveAllDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,46 +68,7 @@
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeLinkedList">
-    <configuration name="MergeMultiLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.MergeMultiLinkedList" />
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.MergeTwoLinkedList" />
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.MiddleNode" />
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestLinkedListQueue.isFull">
     <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.PalindromeLinkedList" />
       <module name="data_structures" />
@@ -122,26 +82,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.RemoveAllDuplicates" />
+    <configuration name="TestLinkedListQueue.isFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data_structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
+      <option name="METHOD_NAME" value="isFull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedListQueue.offer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
+      <option name="METHOD_NAME" value="offer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedListQueue.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
+      <option name="METHOD_NAME" value="peek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedListQueue.poll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
+      <option name="METHOD_NAME" value="poll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLinkedListQueue.isFull" />
+        <item itemvalue="JUnit.TestLinkedListQueue.poll" />
+        <item itemvalue="JUnit.TestLinkedListQueue.peek" />
+        <item itemvalue="JUnit.TestLinkedListQueue.offer" />
         <item itemvalue="Application.PalindromeLinkedList" />
-        <item itemvalue="Application.MiddleNode" />
-        <item itemvalue="Application.MergeMultiLinkedList" />
-        <item itemvalue="Application.MergeTwoLinkedList" />
-        <item itemvalue="Application.RemoveAllDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +170,9 @@
       <workItem from="1709112030995" duration="93000" />
       <workItem from="1709112142421" duration="2695000" />
       <workItem from="1709114952265" duration="24826000" />
-      <workItem from="1709287473693" duration="56090000" />
+      <workItem from="1709287473693" duration="57944000" />
+      <workItem from="1709908848540" duration="302000" />
+      <workItem from="1709909242102" duration="6000000" />
     </task>
     <servers />
   </component>
@@ -170,6 +183,17 @@
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="executable:terraform" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added files" />
