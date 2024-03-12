@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24144d4d-690c-4775-a908-0aa66421a483" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/LinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/TestLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/ArrayQueue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/ArrayQueue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/TestArrayQueue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/src/queue/TestArrayQueue2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +65,54 @@
       <recent name="D:\Learning\Data Structures And Algorithms" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="queue" />
       <recent name="Leetcode" />
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLinkedListQueue.isFull">
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.PalindromeLinkedList" />
+  <component name="RunManager" selected="JUnit.TestArrayQueue2.isFull">
+    <configuration name="TestArrayQueue1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data_structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestArrayQueue1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayQueue2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestArrayQueue2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayQueue2.isFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.TestArrayQueue2" />
+      <option name="METHOD_NAME" value="isFull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,38 +128,6 @@
       <option name="PACKAGE_NAME" value="queue" />
       <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
       <option name="METHOD_NAME" value="isFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinkedListQueue.offer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
-      <option name="METHOD_NAME" value="offer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinkedListQueue.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data_structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.TestLinkedListQueue" />
-      <option name="METHOD_NAME" value="peek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestArrayQueue2.isFull" />
+        <item itemvalue="JUnit.TestArrayQueue2" />
+        <item itemvalue="JUnit.TestArrayQueue1" />
         <item itemvalue="JUnit.TestLinkedListQueue.isFull" />
         <item itemvalue="JUnit.TestLinkedListQueue.poll" />
-        <item itemvalue="JUnit.TestLinkedListQueue.peek" />
-        <item itemvalue="JUnit.TestLinkedListQueue.offer" />
-        <item itemvalue="Application.PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +175,9 @@
       <workItem from="1709114952265" duration="24826000" />
       <workItem from="1709287473693" duration="57944000" />
       <workItem from="1709908848540" duration="302000" />
-      <workItem from="1709909242102" duration="6000000" />
+      <workItem from="1709909242102" duration="7498000" />
+      <workItem from="1710023246588" duration="13000" />
+      <workItem from="1710244277708" duration="3751000" />
     </task>
     <servers />
   </component>
